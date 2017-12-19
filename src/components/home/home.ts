@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoadingController, NavController } from "ionic-angular";
 
 /**
  * Generated class for the HomeComponent component.

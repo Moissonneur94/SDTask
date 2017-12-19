@@ -5,7 +5,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { SDTask } from './app.component';
-import { HomePage } from '../pages/home/home';
 
 import { LoginComponent } from '../components/login/login';
 import { HomeComponent } from '../components/home/home';
