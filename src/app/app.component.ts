@@ -4,11 +4,15 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
+
+import { LoginComponent } from '../components/login/login';
+import { HomeComponent } from '../components/home/home';
+import { ListTaskComponent } from '../components/listTask/listTask';
 @Component({
   templateUrl: 'app.html'
 })
-export class MyApp {
-  rootPage:any = HomePage;
+export class SDTask {
+  rootPage:any = LoginComponent;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
     platform.ready().then(() => {

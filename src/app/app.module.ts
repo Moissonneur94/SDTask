@@ -4,22 +4,30 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
-import { MyApp } from './app.component';
+import { SDTask } from './app.component';
 import { HomePage } from '../pages/home/home';
+
+import { LoginComponent } from '../components/login/login';
+import { HomeComponent } from '../components/home/home';
+import { ListTaskComponent } from '../components/listTask/listTask';
 
 @NgModule({
   declarations: [
-    MyApp,
-    HomePage
+    SDTask,
+    LoginComponent,
+    HomeComponent,
+    ListTaskComponent
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(SDTask)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp,
-    HomePage
+    SDTask,
+    LoginComponent,
+    HomeComponent,
+    ListTaskComponent
   ],
   providers: [
     StatusBar,
